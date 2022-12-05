@@ -1,0 +1,35 @@
+@import './scss/variables.scss';
+@import './scss/mixins.scss';
+
+@font-face {
+    font-family: poppins;
+    src: url(assets/font/Poppins-Black.ttf) format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'arial', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+

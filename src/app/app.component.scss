@@ -1,0 +1,30 @@
+@import '/src/scss/variables.scss';
+@import '/src/scss/mixins.scss';
+
+#main {
+    background-color: #161834;
+    padding: 150px 0;
+    height: calc(100vh - 76px);
+
+    .main-title {
+        font-size: 38px;
+        color: $white;
+        margin-bottom: 20px;
+
+        span {
+            color: $orange;
+            letter-spacing: 3px;
+        }
+    }
+
+    img {
+        opacity: .8; 
+        margin-bottom: 30px;
+    }
+
+    .reviews {
+        color: $white;
+        @include align-center;
+        justify-content: center;
+    }
+}
